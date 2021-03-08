@@ -9,3 +9,4 @@
 
 # 教程
 * [CentOS7自建局域网ntp服务器](https://github.com/gavin2love/handbook/blob/main/CentOS/CentOS7自建局域网ntp服务器.md)
+* [CentOS7安装Zabbix3.2](https://github.com/gavin2love/handbook/blob/main/CentOS/CentOS7安装Zabbix3.2.md)
