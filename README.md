@@ -1,4 +1,3 @@
-
 #  CentOS
 * [CentOS7中转内网流量](https://github.com/gavin2love/handbook/blob/main/CentOS/CentOS7中转内网流量.md)
 * [CentOS7 批量绑定IP](https://github.com/gavin2love/handbook/blob/main/CentOS/CentOS7%20批量绑定IP.md)
@@ -9,11 +8,18 @@
 * [CentOS7选定默认启动内核](https://github.com/gavin2love/handbook/blob/main/CentOS/CentOS7选定默认启动内核.md)
 * [CentOS7根目录Lvm扩容](https://github.com/gavin2love/handbook/blob/main/CentOS/CentOS7根目录Lvm扩容.md)
 * [CentOS7多端口LACP聚合](https://github.com/gavin2love/handbook/blob/main/CentOS/CentOS7多端口LACP聚合.md)
-* 
+* [CentOS7免密登陆](https://github.com/gavin2love/handbook/blob/main/CentOS/Centos7免密登陆.md)
+* [CentOS7允许内网Nat转发](https://github.com/gavin2love/handbook/blob/main/CentOS/CentOS7允许内网Nat转发.md)
+* [CentOS7安装Grafana](https://github.com/gavin2love/handbook/blob/main/CentOS/CentOS7安装Grafana.md)
+
 
 # Network
 * [Juniper-EX3300交换机LACP配置](https://github.com/gavin2love/handbook/blob/main/Network/Juniper-EX3300交换机LACP配置.md)
 * [Juniper-设备初始化配置](https://github.com/gavin2love/handbook/blob/main/Network/Juniper-设备初始化配置.md)
+
+# Monitor
+* [Zabbix5监控debian10](https://github.com/gavin2love/handbook/blob/main/Monitor/zabbix/Zabbix5监控debian10.md)
+
 
 # Virtualization
 
@@ -23,7 +29,7 @@
 * [PVE硬件直通](https://github.com/gavin2love/handbook/blob/main/Virtualization/pve/PVE硬件直通.md)
 * [PVE迁移虚拟机](https://github.com/gavin2love/handbook/blob/main/Virtualization/pve/PVE迁移虚拟机.md)
 * [单人维护模式(重置root密码)](https://github.com/gavin2love/handbook/blob/main/Virtualization/pve/单人维护模式(重置root密码).md)
-* [PVE定时清理buff/Cache缓存](https://github.com/gavin2love/handbook/blob/main/Virtualization/pve/PVE定时清理buff/Cache缓存.md)
+* [PVE定时清理buff/Cache缓存](https://github.com/gavin2love/handbook/blob/main/Virtualization/pve/PVE定时清理buff:Cache缓存.md)
 * [VMwareESXi7安装过程中设置SWAP](https://github.com/gavin2love/handbook/blob/main/Virtualization/esxi/VMwareESXi7安装过程中设置SWAP.md)
 
 
