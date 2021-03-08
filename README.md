@@ -19,7 +19,7 @@
 
 * [在Debian10安装ProxmoxVE6](https://github.com/gavin2love/handbook/blob/main/Virtualization/pve/在Debian10安装ProxmoxVE6.md)
 * [在PVE宿主机启用BBR](https://github.com/gavin2love/handbook/blob/main/Virtualization/pve/在PVE宿主机启用BBR.md)
-* [开启PVE嵌套虚拟化](/blob/main/Virtualization/pve/开启PVE嵌套虚拟化.md)
+* [开启PVE嵌套虚拟化](Virtualization/pve/开启PVE嵌套虚拟化.md)
 
 
 # Other
