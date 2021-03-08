@@ -19,12 +19,12 @@
 
 * [在Debian10安装ProxmoxVE6](https://github.com/gavin2love/handbook/blob/main/Virtualization/pve/在Debian10安装ProxmoxVE6.md)
 * [在PVE宿主机启用BBR](https://github.com/gavin2love/handbook/blob/main/Virtualization/pve/在PVE宿主机启用BBR.md)
-* [开启PVE嵌套虚拟化](ttps://github.com/gavin2love/handbook/blob/main/Virtualization/pve/开启PVE嵌套虚拟化.md)
-* [PVE硬件直通](ttps://github.com/gavin2love/handbook/blob/main/Virtualization/pve/PVE硬件直通.md)
-* [PVE迁移虚拟机](ttps://github.com/gavin2love/handbook/blob/main/Virtualization/pve/PVE迁移虚拟机.md)
-* [单人维护模式(重置root密码)](ttps://github.com/gavin2love/handbook/blob/main/Virtualization/pve/单人维护模式(重置root密码).md)
-* [PVE定时清理buff/Cache缓存](ttps://github.com/gavin2love/handbook/blob/main/Virtualization/pve/PVE定时清理buff/Cache缓存.md)
-* [VMwareESXi7安装过程中设置SWAP](ttps://github.com/gavin2love/handbook/blob/main/Virtualization/esxi/VMwareESXi7安装过程中设置SWAP.md)
+* [开启PVE嵌套虚拟化](https://github.com/gavin2love/handbook/blob/main/Virtualization/pve/开启PVE嵌套虚拟化.md)
+* [PVE硬件直通](https://github.com/gavin2love/handbook/blob/main/Virtualization/pve/PVE硬件直通.md)
+* [PVE迁移虚拟机](https://github.com/gavin2love/handbook/blob/main/Virtualization/pve/PVE迁移虚拟机.md)
+* [单人维护模式(重置root密码)](https://github.com/gavin2love/handbook/blob/main/Virtualization/pve/单人维护模式(重置root密码).md)
+* [PVE定时清理buff/Cache缓存](https://github.com/gavin2love/handbook/blob/main/Virtualization/pve/PVE定时清理buff/Cache缓存.md)
+* [VMwareESXi7安装过程中设置SWAP](https://github.com/gavin2love/handbook/blob/main/Virtualization/esxi/VMwareESXi7安装过程中设置SWAP.md)
 
 
 
