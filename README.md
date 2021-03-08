@@ -7,4 +7,5 @@
 * [CentOS7自建局域网ntp服务器](https://github.com/gavin2love/handbook/blob/main/CentOS/CentOS7自建局域网ntp服务器.md)
 * [CentOS7安装Zabbix3.2](https://github.com/gavin2love/handbook/blob/main/CentOS/CentOS7安装Zabbix3.2.md)
 * [CentOS7选定默认启动内核](https://github.com/gavin2love/handbook/blob/main/CentOS/CentOS7选定默认启动内核.md)
+* [CentOS7根目录Lvm扩容](https://github.com/gavin2love/handbook/blob/main/CentOS/CentOS7根目录Lvm扩容.md)
 
