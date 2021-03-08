@@ -29,7 +29,7 @@
 * [PVE硬件直通](https://github.com/gavin2love/handbook/blob/main/Virtualization/pve/PVE硬件直通.md)
 * [PVE迁移虚拟机](https://github.com/gavin2love/handbook/blob/main/Virtualization/pve/PVE迁移虚拟机.md)
 * [单人维护模式(重置root密码)](https://github.com/gavin2love/handbook/blob/main/Virtualization/pve/单人维护模式(重置root密码).md)
-* [PVE定时清理buff/Cache缓存](https://github.com/gavin2love/handbook/blob/main/Virtualization/pve/PVE定时清理buff:Cache缓存.md)
+* [PVE定时清理缓存](https://github.com/gavin2love/handbook/blob/main/Virtualization/pve/PVE定时清理缓存.md)
 * [VMwareESXi7安装过程中设置SWAP](https://github.com/gavin2love/handbook/blob/main/Virtualization/esxi/VMwareESXi7安装过程中设置SWAP.md)
 
 # Container
