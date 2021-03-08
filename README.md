@@ -32,7 +32,8 @@
 * [PVE定时清理buff/Cache缓存](https://github.com/gavin2love/handbook/blob/main/Virtualization/pve/PVE定时清理buff:Cache缓存.md)
 * [VMwareESXi7安装过程中设置SWAP](https://github.com/gavin2love/handbook/blob/main/Virtualization/esxi/VMwareESXi7安装过程中设置SWAP.md)
 
-
+# Container
+* [CentOS7安装docker](https://github.com/gavin2love/handbook/blob/main/Container/docker/CentOS7安装docker.md)
 
 # Other
 * [R730服务器inter500系列网卡与光模块不兼容](https://github.com/gavin2love/handbook/blob/main/other/R730服务器inter500系列网卡与光模块不兼容.md)
