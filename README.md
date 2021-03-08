@@ -9,6 +9,8 @@
 * [CentOS7选定默认启动内核](https://github.com/gavin2love/handbook/blob/main/CentOS/CentOS7选定默认启动内核.md)
 * [CentOS7根目录Lvm扩容](https://github.com/gavin2love/handbook/blob/main/CentOS/CentOS7根目录Lvm扩容.md)
 * [CentOS7多端口LACP聚合](https://github.com/gavin2love/handbook/blob/main/CentOS/CentOS7多端口LACP聚合.md)
+* 
 
 # Network
-[Juniper-EX3300交换机LACP配置](https://github.com/gavin2love/handbook/blob/main/Network/Juniper-EX3300交换机LACP配置.md)
+* [Juniper-EX3300交换机LACP配置](https://github.com/gavin2love/handbook/blob/main/Network/Juniper-EX3300交换机LACP配置.md)
+* [Juniper-设备初始化配置](https://github.com/gavin2love/handbook/blob/main/Network/Juniper-设备初始化配置.md)
