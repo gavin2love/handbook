@@ -14,3 +14,6 @@
 # Network
 * [Juniper-EX3300交换机LACP配置](https://github.com/gavin2love/handbook/blob/main/Network/Juniper-EX3300交换机LACP配置.md)
 * [Juniper-设备初始化配置](https://github.com/gavin2love/handbook/blob/main/Network/Juniper-设备初始化配置.md)
+
+# Other
+* [R730服务器inter500系列网卡与光模块不兼容](https://github.com/gavin2love/handbook/blob/main/oter/R730服务器inter500系列网卡与光模块不兼容.md)
