@@ -14,8 +14,10 @@
 	timedatectl set-timezone Asia/Shanghai # 设置时区
 	systemctl start systemd-timesyncd  # 自动同步时间
 #设置主机名
+
 	hostnamectl set-hostname pve-edge1.doamin.com
 	echo "192.168.1.254 pve-edge1.doamin.com pea-edge1" | tee -a /etc/hosts
+	
 ## 报错
 ### bash: sudo: command not found报错
 	apt install sudo -y
