@@ -1,5 +1,6 @@
 
 #禁用selinux
+
     sed -i '/SELINUX/s/enforcing/disabled/' /etc/selinux/config  && setenforce 0  
 
 #建立源
@@ -16,6 +17,7 @@
     sed -i 's#http://repo.zabbix.com#https://mirrors.aliyun.com/zabbix#' /etc/yum.repos.d/zabbix.repo
     sed -i 's#enabled=0#enabled=1#' /etc/yum.repos.d/zabbix.repo
 #重建软件源缓存
+
     yum clean all
     yum makecache
 
@@ -23,15 +25,19 @@
 
 
 # 安装agent2
+
     yum install -y zabbix-agent2
 
 # 查看当前agent2配置文件
+
     # egrep -v '^#|^$' /etc/zabbix/zabbix_agent2.conf
 
 ## 生成随机码
+
     openssl rand -hex 32  > /etc/zabbix/zabbix_proxy.psk
 
 ## 配置agent2文件
+
     vim /etc/zabbix/zabbix_agent2.conf
     Server=xxxxx
     ServerActive=xxxxx
@@ -41,19 +47,24 @@
     TLSPSKFile=/etc/zabbix/zabbix_proxy.psk
     TLSPSKIdentity=Server_test客户端主机名，例如MariaDB‐Server-001 
 # 自启Zabbix探针
+
     systemctl restart zabbix-agent2 && systemctl enable zabbix-agent2
     firewall-cmd --add-port=10050/tcp --permanent
     firewall-cmd --reload
 
 # 查看服务和端口运行情况
+
     systemctl status zabbix-agent2
     netstat -tunlp | grep 10050
 
 # 自定义监控项
+
     vim /etc/zabbix/zabbix_agentd.conf
 ### TCP连接数
+
     UserParameter=tcp-session,netstat -an |grep 'ESTABLISHED' |grep 'tcp' |wc -l 
 
 # 重启配置
+
     systemctl restart zabbix-agent2
     cat /etc/zabbix/zabbix_proxy.psk && cat /etc/hostname
