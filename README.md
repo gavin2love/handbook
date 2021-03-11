@@ -12,6 +12,9 @@
 * [CentOS7允许内网Nat转发](https://github.com/gavin2love/handbook/blob/main/CentOS/CentOS7允许内网Nat转发.md)
 * [CentOS7安装Grafana](https://github.com/gavin2love/handbook/blob/main/CentOS/CentOS7安装Grafana.md)
 
+#  Nginx
+* [CentOS7安装Nginx](https://github.com/gavin2love/handbook/blob/main/Nginx/Centos7安装Nginx.md)
+
 
 # Network
 * [Juniper-EX3300交换机LACP配置](https://github.com/gavin2love/handbook/blob/main/Network/Juniper-EX3300交换机LACP配置.md)
