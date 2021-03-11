@@ -1,3 +1,7 @@
+# 笔记/搜集/摘录/实践
+
+放置我的笔记、搜集、摘录、实践，保持好奇心。这里就是个随记，涉猎技术知识点广而不精，不能保证正确，看文需谨慎，后果很严重。
+
 #  CentOS
 * [CentOS7中转内网流量](https://github.com/gavin2love/handbook/blob/main/CentOS/CentOS7中转内网流量.md)
 * [CentOS7 批量绑定IP](https://github.com/gavin2love/handbook/blob/main/CentOS/CentOS7%20批量绑定IP.md)
