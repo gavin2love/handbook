@@ -19,6 +19,7 @@
 
 # Monitor
 * [Zabbix5监控debian10](https://github.com/gavin2love/handbook/blob/main/Monitor/zabbix/Zabbix5监控debian10.md)
+* [Zabbix5监控CentOS7](https://github.com/gavin2love/handbook/blob/main/Monitor/zabbix/Zabbix5监控CentOS7.md)
 
 
 # Virtualization
