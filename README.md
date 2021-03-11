@@ -14,6 +14,7 @@
 
 #  Nginx
 * [CentOS7安装Nginx](https://github.com/gavin2love/handbook/blob/main/Nginx/Centos7安装Nginx.md)
+* [CentOS7升级Nginx](https://github.com/gavin2love/handbook/blob/main/Nginx/Centos7升级Nginx.md)
 
 
 # Network
