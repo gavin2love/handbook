@@ -16,6 +16,9 @@
 * [CentOS7安装Nginx](https://github.com/gavin2love/handbook/blob/main/Nginx/Centos7安装Nginx.md)
 * [CentOS7升级Nginx](https://github.com/gavin2love/handbook/blob/main/Nginx/Centos7升级Nginx.md)
 * [CentOS7优化Nginx](https://github.com/gavin2love/handbook/blob/main/Nginx/Centos7优化Nginx.md)
+* [CentOS7正向代理](https://github.com/gavin2love/handbook/blob/main/Nginx/Centos7正向代理.md)
+* [CentOS7反向代理](https://github.com/gavin2love/handbook/blob/main/Nginx/Centos7正向代理.md)
+* [CentOS7负载均衡](https://github.com/gavin2love/handbook/blob/main/Nginx/Centos7负载均衡.md)
 
 
 # Network
