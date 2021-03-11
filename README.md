@@ -19,6 +19,7 @@
 * [CentOS7正向代理](https://github.com/gavin2love/handbook/blob/main/Nginx/Centos7正向代理.md)
 * [CentOS7反向代理](https://github.com/gavin2love/handbook/blob/main/Nginx/Centos7正向代理.md)
 * [CentOS7负载均衡](https://github.com/gavin2love/handbook/blob/main/Nginx/Centos7负载均衡.md)
+* [CentOS7安装模块](https://github.com/gavin2love/handbook/blob/main/Nginx/Centos7安装模块.md)
 
 
 # Network

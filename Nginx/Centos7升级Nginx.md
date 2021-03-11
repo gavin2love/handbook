@@ -1,7 +1,7 @@
 # 准备安装文件
 
 	yum install -y tar wget vim 
-	wget http://nginx.org/download/nginx-1.19.8.tar.gz
+	wget https://1314.gift/env/nginx/nginx-1.19.8.tar.gz
 	tar -zxvf nginx-1.19.8.tar.gz
 
 # 进入安装目录
