@@ -66,10 +66,12 @@ systemctl daemon-reload
 #运行&自起Nginx服务
 systemctl enable nginx && systemctl start nginx
 #放行端口
+
 firewall-cmd --zone=public --add-port=80/tcp --permanent  
 firewall-cmd --zone=public --add-port=443/tcp --permanent  
 firewall-cmd --reload
 
 #找不到nginx
+
 echo "export PATH=$PATH:/etc/nginx/sbin" >>/etc/profile
 source /etc/profile
