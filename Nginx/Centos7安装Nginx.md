@@ -1,3 +1,9 @@
+# 快速安装
+
+	# https://github.com/gavin2love/handbook/raw/main/Nginx/shell/nginx-install.sh
+	bash <(curl -fsSL https://git.io/Jqcus)
+
+
 # 关闭SELINUX
 
 	sed -i '/SELINUX/s/enforcing/disabled/' /etc/selinux/config  && setenforce 0
