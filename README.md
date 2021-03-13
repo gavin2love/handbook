@@ -52,3 +52,4 @@
 # Other
 * [R730服务器inter500系列网卡与光模块不兼容](https://github.com/gavin2love/handbook/blob/main/other/R730服务器inter500系列网卡与光模块不兼容.md)
 * [Markdown文档模块](https://github.com/gavin2love/handbook/blob/main/other/Markdown文档模块.md)
+* [ubuntu20.4安装初始化](https://github.com/gavin2love/handbook/blob/main/other/ubuntu20.4安装初始化.md)
