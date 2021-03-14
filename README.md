@@ -17,6 +17,10 @@
 * [CentOS7安装Grafana](https://github.com/gavin2love/handbook/blob/main/OS/CentOS7安装Grafana.md)
 * [ubuntu20.4安装初始化](https://github.com/gavin2love/handbook/blob/main/OS/ubuntu20.4安装初始化.md)
 
+# Languages
+* [php-CentOS7安装(remi)](https://github.com/gavin2love/handbook/blob/main/Languages/php/php-CentOS7安装(remi).md)
+
+
 #  WebServers
 * [CentOS7安装Nginx](https://github.com/gavin2love/handbook/blob/main/WebServers/Centos7安装Nginx.md)
 * [CentOS7升级Nginx](https://github.com/gavin2love/handbook/blob/main/WebServers/Centos7升级Nginx.md)
