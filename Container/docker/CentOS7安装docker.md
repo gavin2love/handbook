@@ -49,13 +49,14 @@
 
     cat <<EOF > /etc/docker/daemon.json
     {
-    	"graph": "/data/docker/",
+    	"data-root": "/data/docker/",
     	"registry-mirrors": [ "https://1nj0zren.mirror.aliyuncs.com", 
     	"https://mirror.baidubce.com",
     	"https://docker.mirrors.ustc.edu.cn",
     	"https://hub-mirror.c.163.com"],
     	"log-opts": {"max-size": "100m","max-file": "3"},
-		"dns" : ["223.5.5.5","8.8.8.8"]
+		"dns" : ["223.5.5.5","8.8.8.8"],
+		"max-concurrent-downloads": 5
     } 
     EOF
 
