@@ -19,6 +19,8 @@
 
 # Languages
 * [php-CentOS7安装(remi)](https://github.com/gavin2love/handbook/blob/main/Languages/php/php-CentOS7安装(remi).md)
+* [python-CentOS7安装(编译)](https://github.com/gavin2love/handbook/blob/main/Languages/python/python-CentOS7安装(编译).md)
+
 
 
 #  WebServers
