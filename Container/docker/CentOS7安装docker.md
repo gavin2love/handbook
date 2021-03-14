@@ -3,8 +3,8 @@
 # 禁用selinux
 
     sed -i '/SELINUX/s/enforcing/disabled/' /etc/selinux/config  && setenforce 0  
-
-#建立源
+ 
+# 建立源
 
     cp /etc/yum.repos.d/CentOS-Base.repo /etc/yum.repos.d/CentOS-Base.repo.backup
     curl -o /etc/yum.repos.d/CentOS-Base.repo https://mirrors.aliyun.com/repo/Centos-7.repo
@@ -17,12 +17,11 @@
 
 #重建软件源缓存
 
-    yum clean all
-    yum makecache
+    yum clean all && yum makecache
 
 # 安装常用软件
 
-    yum install -y wget vim mlocate 
+    yum install -y wget vim mlocate unzip
 
 # 安装Docker
 
@@ -44,7 +43,7 @@
     EOF
     
     sudo sysctl -p
-    docker run hello-world
+    # docker run hello-world
 
 # Docker Hub 镜像加速器
 
@@ -69,3 +68,7 @@
     Registry Mirrors:
      [...]
      https://registry.docker-cn.com/
+	 
+#  hello-world
+
+	docker run hello-world
