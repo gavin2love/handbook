@@ -51,12 +51,11 @@
     {
     	"graph": "/data/docker/",
     	"registry-mirrors": [ "https://1nj0zren.mirror.aliyuncs.com", 
-    	"https://docker.mirrors.ustc.edu.cn", 
-    	"http://f1361db2.m.daocloud.io", 
-    	"https://registry.docker-cn.com",
+    	"https://mirror.baidubce.com",
     	"https://docker.mirrors.ustc.edu.cn",
     	"https://hub-mirror.c.163.com"],
-    	"log-opts": {"max-size": "100m","max-file": "3"}
+    	"log-opts": {"max-size": "100m","max-file": "3"},
+		"dns" : ["223.5.5.5","8.8.8.8"]
     } 
     EOF
 
