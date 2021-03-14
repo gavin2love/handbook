@@ -1,7 +1,7 @@
 # 快速安装
 
-	# https://github.com/gavin2love/handbook/raw/main/Nginx/shell/nginx-install.sh
-	bash <(curl -fsSL https://git.io/Jqcus)
+	# https://github.com/gavin2love/handbook/raw/main/WebServers/shell/nginx-install.sh
+	bash <(curl -fsSL https://git.io/JqlLF)
 
 
 # 关闭SELINUX
