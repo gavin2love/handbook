@@ -56,7 +56,8 @@
     	"https://hub-mirror.c.163.com"],
     	"log-opts": {"max-size": "100m","max-file": "3"},
 		"dns" : ["223.5.5.5","8.8.8.8"],
-		"max-concurrent-downloads": 5
+		"max-concurrent-downloads":3,
+		"max-concurrent-uploads":5
     } 
     EOF
 
