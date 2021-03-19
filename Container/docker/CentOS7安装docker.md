@@ -58,7 +58,8 @@
 		"dns" : ["223.5.5.5","8.8.8.8"],
 		"max-concurrent-downloads":3,
 		"max-concurrent-uploads":5,
-		"insecure-registries": ["192.168.24.170:5000"]
+		"insecure-registries": ["192.168.24.170:5000"],
+		"exec-opts": ["native.cgroupdriver=systemd"]
     } 
     EOF
 
