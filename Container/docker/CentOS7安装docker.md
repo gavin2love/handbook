@@ -49,17 +49,20 @@
 
     cat <<EOF > /etc/docker/daemon.json
     {
-    	"data-root": "/data/docker/",
-    	"registry-mirrors": [ "https://1nj0zren.mirror.aliyuncs.com", 
-    	"https://mirror.baidubce.com",
-    	"https://docker.mirrors.ustc.edu.cn",
-    	"https://hub-mirror.c.163.com"],
-    	"log-opts": {"max-size": "100m","max-file": "3"},
-		"dns" : ["223.5.5.5","8.8.8.8"],
-		"max-concurrent-downloads":3,
-		"max-concurrent-uploads":5,
-		"insecure-registries": ["192.168.24.170:5000"],
-		"exec-opts": ["native.cgroupdriver=systemd"]
+        "data-root": "/data/docker/",
+        "registry-mirrors": [ "https://1nj0zren.mirror.aliyuncs.com", 
+        "https://mirror.baidubce.com",
+        "https://docker.mirrors.ustc.edu.cn",
+        "https://hub-mirror.c.163.com"],
+        "log-opts": {"max-size": "100m","max-file": "3"},
+        "dns" : ["223.5.5.5","8.8.8.8"],
+        "max-concurrent-downloads":6,
+        "max-concurrent-uploads":6,
+        "insecure-registries": ["192.168.24.170:5000"],
+        "exec-opts": ["native.cgroupdriver=systemd"],
+        "log-driver": "json-file",
+        "storage-driver": "overlay2",
+        "storage-opts": ["overlay2.override_kernel_check=true"]
     } 
     EOF
 
