@@ -127,7 +127,7 @@ saved_entry=0  #0为4.4内核启动序号
 	5.11.8-1.el7.elrepo.x86_64
 2).经过内核名称设置5.11.8-1.el7.elrepo.x86_64为默认启动内核
 
-恢复至3.10内核
+# 恢复至3.10内核
 
 	[root@localhost ~]# grep "^menuentry"  /boot/grub2/grub.cfg
 	[root@localhost ~]# grub2-set-default 1
@@ -146,3 +146,20 @@ saved_entry=0  #0为4.4内核启动序号
 	[root@localhost ~]# reboot
 	[root@localhost ~]# uname -r
 	5.11.8-1.el7.elrepo.x86_64
+
+# 开启BBr
+执行 lsmod | grep bbr，如果结果中没有 tcp_bbr 的话就先执行以下代码
+
+	modprobe tcp_bbr
+	echo "tcp_bbr" >> /etc/modules-load.d/modules.conf
+	echo "net.core.default_qdisc=fq" >> /etc/sysctl.conf
+	echo "net.ipv4.tcp_congestion_control=bbr" >> /etc/sysctl.conf
+	sysctl -p
+
+观察BBR是否开启成功，执行以下代码：
+
+	sysctl net.ipv4.tcp_available_congestion_control
+	sysctl net.ipv4.tcp_congestion_control
+
+如果结果都有**bbr**, 则证明你的内核已开启bbr
+看到有 **tcp_bbr** 模块即说明bbr已启动
