@@ -16,6 +16,7 @@
   - [CentOS7允许内网Nat转发](https://github.com/gavin2love/handbook/blob/main/OS/CentOS7允许内网Nat转发.md)
   - [CentOS7安装Grafana](https://github.com/gavin2love/handbook/blob/main/OS/CentOS7安装Grafana.md)
   - [CentOS7升级内核版本](https://github.com/gavin2love/handbook/blob/main/OS/CentOS7升级内核版本.md)
+  - [CentOS7下NFS配置与挂载](https://github.com/gavin2love/handbook/blob/main/OS/CentOS7下NFS配置与挂载.md)
 - Ubuntu
   - [ubuntu20.4安装初始化](https://github.com/gavin2love/handbook/blob/main/OS/ubuntu20.4安装初始化.md)
 
