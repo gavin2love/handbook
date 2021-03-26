@@ -17,6 +17,7 @@
   - [CentOS7安装Grafana](https://github.com/gavin2love/handbook/blob/main/OS/CentOS7安装Grafana.md)
   - [CentOS7升级内核版本](https://github.com/gavin2love/handbook/blob/main/OS/CentOS7升级内核版本.md)
   - [CentOS7下NFS配置与挂载](https://github.com/gavin2love/handbook/blob/main/OS/CentOS7下NFS配置与挂载.md)
+  - [CentOS7部署DHCP服务](https://github.com/gavin2love/handbook/blob/main/OS/CentOS7部署DHCP服务.md)
 - Ubuntu
   - [ubuntu20.4安装初始化](https://github.com/gavin2love/handbook/blob/main/OS/ubuntu20.4安装初始化.md)
 
@@ -74,3 +75,4 @@
 # Other
   - [R730服务器inter500系列网卡与光模块不兼容](https://github.com/gavin2love/handbook/blob/main/other/R730服务器inter500系列网卡与光模块不兼容.md)
   - [Markdown文档模块](https://github.com/gavin2love/handbook/blob/main/other/Markdown文档模块.md)
+  - [hetzner分区扩容](https://github.com/gavin2love/handbook/blob/main/other/hetzner分区扩容.md)
