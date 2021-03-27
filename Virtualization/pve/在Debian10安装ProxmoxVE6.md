@@ -26,10 +26,9 @@
 
 	hostnamectl set-hostname PVE-Master
 	# 将127.0.1.1改为服务器主IP ，并删除原hosts中的127.0.0.1
-	echo "127.0.0.1 Proxmox-VE.doamin.localdomain  localhost" | tee -a /etc/hosts
-	echo "127.0.1.1 Proxmox-VE.doamin.localdomain PVE-Master " | tee -a /etc/hosts
+	echo "127.0.0.1 PVE-Master.doamin.localdomain  localhost" | tee -a /etc/hosts
+	echo "127.0.1.1 PVE-Master.doamin.localdomain PVE-Master " | tee -a /etc/hosts
 	echo "192.168.1.254 PVE-Master.doamin.localdomain PVE-Master " | tee -a /etc/hosts
-	
 
 	
 ## 报错
@@ -57,7 +56,7 @@
 
 # 安装Proxmox VE软件包
 	apt install proxmox-ve postfix open-iscsi ksmtuned ceph-base -y
-	apt remove proxmox-ve postfix open-iscsi ksmtuned ceph-base -y
+	# apt remove proxmox-ve postfix open-iscsi ksmtuned ceph-base -y
 # 配置postfix
 选择Internet Site，其他配置选择默认。
 	
