@@ -44,7 +44,7 @@
 # 修改配置
 
 	vi /etc/gitlab/gitlab.rb
-## 将external_url 'http://gitlab.example.com'地址修改成服务器的ip
+## 将external_url 'http://gitlab.example.com' 地址修改成服务器的ip
 
 
 # 加载配置并重启gitlab
