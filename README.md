@@ -22,6 +22,11 @@
   - [ubuntu20.4安装初始化](https://github.com/gavin2love/handbook/blob/main/OS/ubuntu20.4安装初始化.md)
 
 # Languages
+- Gitlab
+  - [CentOS7搭建Gitlab](https://github.com/gavin2love/handbook/blob/main/Languages/git/CentOS7搭建Gitlab.md)
+  - [Gitlab优化](https://github.com/gavin2love/handbook/blob/main/Languages/git/Gitlab优化.md)
+  - [Gitlab邮件配置](https://github.com/gavin2love/handbook/blob/main/Languages/git/Gitlab邮件配置.md)
+
 - PHP
   - [php-CentOS7安装(remi)](https://github.com/gavin2love/handbook/blob/main/Languages/php/php-CentOS7安装(remi).md)
 - Python
