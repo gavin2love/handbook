@@ -20,6 +20,8 @@
   - [CentOS7部署DHCP服务](https://github.com/gavin2love/handbook/blob/main/OS/CentOS7部署DHCP服务.md)
 - Ubuntu
   - [ubuntu20.4安装初始化](https://github.com/gavin2love/handbook/blob/main/OS/ubuntu20.4安装初始化.md)
+- ansible
+  - [ansible安装](https://github.com/gavin2love/handbook/blob/main/OS/ansible安装.md)
 
 # Languages
 - Gitlab
