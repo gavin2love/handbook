@@ -22,7 +22,7 @@
   - [ubuntu20.4安装初始化](https://github.com/gavin2love/handbook/blob/main/OS/ubuntu20.4安装初始化.md)
 - ansible
   - [ansible安装](https://github.com/gavin2love/handbook/blob/main/OS/ansible安装.md)
-
+  - [ansible用命令管理主机](https://github.com/gavin2love/handbook/blob/main/OS/ansible用命令管理主机.md)
 # Languages
 - Gitlab
   - [CentOS7搭建Gitlab](https://github.com/gavin2love/handbook/blob/main/Languages/git/CentOS7搭建Gitlab.md)
