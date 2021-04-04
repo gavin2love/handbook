@@ -49,6 +49,7 @@
 
 # Network
 - Juniper
+  - [Juniper-初始化设置](https://github.com/gavin2love/handbook/blob/main/Network/Juniper-初始化设置.md)
   - [Juniper-EX3300交换机LACP配置](https://github.com/gavin2love/handbook/blob/main/Network/Juniper-EX3300交换机LACP配置.md)
   - [Juniper-设备初始化配置](https://github.com/gavin2love/handbook/blob/main/Network/Juniper-设备初始化配置.md)
 
