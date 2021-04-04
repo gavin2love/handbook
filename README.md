@@ -48,9 +48,9 @@
 
 
 # Network
-- HCIA-Datacom
-  - [1.数据通信网络基础](https://github.com/gavin2love/handbook/blob/main/Network/HCIA-Datacom/1.数据通信网络基础.md)
-  - [2.网络参考模型](https://github.com/gavin2love/handbook/blob/main/Network/HCIA-Datacom/2.网络参考模型.md)
+- HCIA
+  - [1.数据通信网络基础](https://github.com/gavin2love/handbook/blob/main/Network/hcia/1.数据通信网络基础.md)
+  - [2.网络参考模型](https://github.com/gavin2love/handbook/blob/main/Network/hcia/2.网络参考模型.md)
 - Juniper
   - [Juniper-初始化设置](https://github.com/gavin2love/handbook/blob/main/Network/Juniper/Juniper-初始化设置.md)
   - [Juniper-EX3300交换机LACP配置](https://github.com/gavin2love/handbook/blob/main/Network/Juniper/Juniper-EX3300交换机LACP配置.md)
