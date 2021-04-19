@@ -49,7 +49,6 @@
 
     cat <<EOF > /etc/docker/daemon.json
     {
-        "data-root": "/data/docker/",
         "registry-mirrors": [ "https://1nj0zren.mirror.aliyuncs.com", 
         "https://mirror.baidubce.com",
         "https://docker.mirrors.ustc.edu.cn",
