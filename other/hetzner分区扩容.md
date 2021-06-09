@@ -51,3 +51,13 @@
     mount /dev/mapper/vg0-home /storage
 
 > 请注意，resize2fs只适用于ext4。如果你想使用XFS，必须使用xfs_growfs
+
+# Debian10源
+cat /etc/apt/sources.list 
+#Packages and Security Updates from the Hetzner Debian Mirror
+deb http://mirror.hetzner.de/debian/packages buster         main contrib non-free
+deb http://mirror.hetzner.de/debian/packages buster-updates main contrib non-free
+deb http://mirror.hetzner.de/debian/security buster/updates main contrib non-free
+deb http://deb.debian.org/debian/ buster          main contrib non-free
+deb http://deb.debian.org/debian/ buster-updates  main contrib non-free
+deb http://security.debian.org/   buster/updates  main contrib non-free
