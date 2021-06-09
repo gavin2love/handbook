@@ -9,13 +9,21 @@
 	Total capacity 953 GiB with 2 Disks
    
 # 自动化安装配置文件
-
+	vim install-config.txt
+	DRIVE1 /dev/nvme0n1
+	DRIVE2 /dev/nvme1n1
 	SWRAID 0
+	SWRAIDLEVEL 0
+	BOOTLOADER grub
+	HOSTNAME PVE-Master
 	PART /boot ext3 512M
 	PART lvm vg0 all
 	LV vg0 swap swap swap 16G
-	LV vg0 tmp /tmp reiserfs 5G
 	LV vg0 root / ext4 all
+	IMAGE /root/.oldroot/nfs/install/../images/Debian-109-buster-64-minimal.tar.gz
+	
+	# 开始安装
+	installimage -a -c install-config.txt
 
 # 进入系统查看分区
 
